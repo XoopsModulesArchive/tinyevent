@@ -1,0 +1,5 @@
+<ul>
+<{foreach item=events from=$block.events}>
+<li><{$events.date}><br><a href="<{$xoops_url}>/modules/tinyevent/index.php?op=show&id=<{$events.id}>"><{$events.event}></a></li>
+<{/foreach}>
+</ul>
